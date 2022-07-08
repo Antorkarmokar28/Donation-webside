@@ -118,7 +118,6 @@ section.donate{
 /*Our Donate Plan style start*/
 .donation-plan{
     margin-bottom:100px;
-    margin-top: 100px;
 }
 .donation-plan-container{
     width: 80%;
@@ -203,6 +202,7 @@ section.featured-container{
 /*Get my update section style start*/
 .update-container{
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 .update-wrapper{
     width:80%;
