@@ -8,9 +8,11 @@ body{
 }
 /*header section stye start*/
 .header{
-    background: linear-gradient(#c5bfbf30,#26242457,#141414),url(../images/donation10.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background: linear-gradient(#3e3e3e30,#0c0c0c57,#0c0b0b),url(../images/donation10.jpg);
+    background-repeat:
+    no-repeat;
+    background-size:
+    cover;
     margin-bottom:100px;
 }
 .header-wrapper{
@@ -97,6 +99,7 @@ section.donate{
     center;
     padding: 15px 0px;
     border: 1px solid #cbc6c6;
+    outline: none;
 }
 .donate-btn{
     text-decoration:
@@ -112,15 +115,6 @@ section.donate{
     margin-left: 37%;
 }
 /*Donate today section style end*/
-/*Featured campaign style start*/
-section.featured-container{
-    
-}
-.featured-wrapper{
-    width: 80%;
-    margin:0 auto;
-}
-/*Featured campaign style end*/
 /*Our Donate Plan style start*/
 .donation-plan{
     margin-bottom:100px;
@@ -170,6 +164,42 @@ section.featured-container{
     background: #f3c9ac;
 }
 /*Our Donate Plan style end*/
+/*Featured campaign style start*/
+section.featured-container{
+    
+}
+.featured-wrapper{
+    width: 80%;
+    margin:0 auto;
+}
+.title-wrap{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom:30px;
+}
+.title-wrap h1{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom:10px;
+}
+.title-wrap p{
+    text-align:center;
+}
+.box-wrapper{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.box-wrap{
+    width: 27%;
+}
+.img-wrap{
+    width:100%;
+}
+.img-wrap img{
+    width:100%;
+}
+/*Featured campaign style end*/
 /*Get my update section style start*/
 .update-container{
     margin-bottom: 100px;
