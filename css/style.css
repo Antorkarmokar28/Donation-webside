@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*header section stye start*/
+.header{
+    background: linear-gradient(#c5bfbf30,#26242457,#141414),url(../images/donation10.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:100px;
+}
+.header-wrapper{
+    width:80%;
+    height:100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.header-wrapper h1{
+    color:#fff;
+    position:absolute;
+    top: 25%;
+    left: 13%;
+    font-size: 66px;
+    text-align: center !important;
+}
+.header-wrapper h1 span{
+    color: #269f26;
+}
+.header-wrapper p{
+    color:#fff;
+    position:absolute;
+    top: 55%;
+    left: 13%;
+    font-size: 25px;
+    text-align: center !important;
+}
+.link-btn{
+    position:absolute;
+    top: 70%;
+    left: 47%;
+    font-size: 25px;
+    text-decoration:none;
+    background:#269f26;
+    color:#fff;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+/*header section stye end*/
+/*Donate today section style start*/
+section.donate{
+    margin-bottom:100px;
+}
+.donat_container{
+    width:80%;
+    margin:0 auto;
+}
+.title-wrapper{
+    width: 40%;
+    margin:0 auto;
+}
+.title-wrapper h1{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom:10px;
+}
+.title-wrapper p{
+    text-align: center;
+}
+.tk-count-wrapper{
+    display:flex;
+    justify-content:space-between;
+    width: 51%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+.tk-count{
+    background-color: #f1f1f1;
+    padding: 26px 26px;
+}
+.active{
+    background: #6edb6e94;
+    border: 3px solid #269f26;
+    color: #269f26;
+}
+.input-wrapper{
+    width:51%;
+    margin:0 auto;
+}
+#amount-input{
+    width: 100%;
+    text-align:
+    center;
+    padding: 15px 0px;
+    border: 1px solid #cbc6c6;
+}
+.donate-btn{
+    text-decoration:
+    none;
+    background:#269f26;
+    color:#fff;
+    padding: 15px 24px;
+    border-radius: 6px;
+    display:
+    block;
+    width: 98px;
+    margin-top: 30px;
+    margin-left: 37%;
+}
+/*Donate today section style end*/
+/*Featured campaign style start*/
+section.featured-container{
+    
+}
+.featured-wrapper{
+    width: 80%;
+    margin:0 auto;
+}
+/*Featured campaign style end*/
+/*Our Donate Plan style start*/
+.donation-plan{
+    margin-bottom:100px;
+    margin-top: 100px;
+}
+.donation-plan-container{
+    width: 80%;
+    margin:0 auto;
+}
+.donation-plan-title{
+    width: 40%;
+    margin: 0 auto;
+}
+.donation-plan-title h1{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.donation-plan-title p{
+    text-align:center;
+}
+.plan-box{
+    width:100%;
+    display:flex;
+    margin-top:30px;
+    justify-content:space-between;
+}
+.sub_box{
+    padding: 45px 24px;
+    margin: 0px 5px;
+    width: 27%;
+    border-radius:6px;
+}
+.blue-box{
+    background: #ededf1;
+}
+.text-wrap{
+    margin-top: 20px;
+}
+.text-wrap h4{
+    margin-bottom:10px;
+}
+.green-box{
+    background: #6edb6e94;
+}
+.sweet-box{
+    background: #f3c9ac;
+}
+/*Our Donate Plan style end*/
+/*Get my update section style start*/
+.update-container{
+    margin-bottom: 100px;
+}
+.update-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+.update-title{
+    width:40%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.update-title h1{
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.update-title p{
+    text-align: center;
+}
+.input-wrap{
+    width: 60%;
+    margin: 0 auto;
+    background:#6edb6e94;
+    padding: 62px 40px;
+    border-radius: 6px;
+}
+.input-sub-wrap{
+    width: 40%;
+    margin:0 auto;
+    position:
+    relative;
+    padding-bottom: 49px;
+}
+.input-sub-wrap .inpt1{
+    border: none;
+    outline: none;
+    border-radius: 18px 0 0 18px;
+    padding: 18px 6px;
+    position:
+    absolute;
+    display:
+    inline-block;
+    width: 70%;
+}
+.input-sub-wrap .inpt2{
+    border: none;
+    outline: none;
+    border-radius:0 18px 18px 0;
+    padding: 18px 10px;
+    position:
+    absolute;
+    top: 0;
+    left: 193px;
+    background: #269f26;
+    color: #fff;
+}
+/*Get my update section style end*/
+/* footer style add */
+footer{
+    background-color: #6edb6e94;
+    padding: 50px 0px;
+}
+.footer-wrap{
+    width: 80%;
+    margin:0 auto;
+}
+.footer-wrap h1{
+    text-align:center;
+    color: #269f26;
+}
+.footer-wrap p{
+    text-align: center;
+    color: #269f26;
+}
+/* footer style end*/
